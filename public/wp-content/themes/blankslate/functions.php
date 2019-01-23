@@ -65,3 +65,4 @@ return count( $comments_by_type['comment'] );
 return $count;
 }
 }
+wp_enqueue_style( 'style', get_stylesheet_uri() );
