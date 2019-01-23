@@ -68,7 +68,7 @@
 	     *
 	     * @since 1.0.0
 	     */
-	    do_action( 'easy_store_header' );
+			do_action( 'easy_store_header' );
 	?>
 
 	<?php
