@@ -1,0 +1,17 @@
+.entry-content {
+  .woocommerce {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    flex-direction: column;
+    .product {
+      border: 1px solid black;
+      border-radius: 5px;
+      text-align: center;
+      .woocommerce-loop-product__title {
+        font-size: 2em !important;
+        color: black;
+      }
+    }
+  }
+}
